@@ -1,0 +1,18 @@
+/*
+ * Time complexity	: O(n)
+ * Space complexity	: O(1)
+ */
+public class Solution 
+{
+	public static int findDuplicate(int[] arr) 
+	{
+		int n = arr.length;
+		int nsum = (n - 2) * (n - 1) / 2;
+		int sum = 0;
+		for(int i : arr)
+		{
+			sum += i;
+		}
+		return sum - nsum;
+	}
+}
