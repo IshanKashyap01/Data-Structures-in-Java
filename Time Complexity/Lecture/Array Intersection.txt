@@ -1,6 +1,5 @@
 /*
  * Time complexity	: O(nlogn)
- * Space complexity	: O(n)
  */
 public class Solution 
 {
