@@ -2,6 +2,10 @@
 
 ```Java
 import java.util.*;
+/*
+ * Time complexity  : O(n)
+ * Space complexity : O(n)
+ */
 public class Solution 
 {
     public static int PairSum(int[] arr, int n) 
