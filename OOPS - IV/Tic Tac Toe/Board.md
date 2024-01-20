@@ -1,3 +1,6 @@
+# Board
+
+```Java
 public class Board 
 {
     private char[][] matrix;    
@@ -41,3 +44,4 @@ public class Board
         matrix[i][j] = value;
     }
 }
+```

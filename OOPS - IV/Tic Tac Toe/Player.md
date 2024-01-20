@@ -1,3 +1,6 @@
+# Player
+
+```Java
 public class Player
 {
     private String name;
@@ -42,3 +45,4 @@ public class Player
         this.symbol = symbol;
     }
 }
+```

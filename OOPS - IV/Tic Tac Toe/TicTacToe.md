@@ -1,3 +1,6 @@
+# TicTacToe
+
+```Java
 import java.util.Scanner;
 
 public class TicTacToe 
@@ -46,3 +49,4 @@ public class TicTacToe
         return symbol;
     }
 }
+```
