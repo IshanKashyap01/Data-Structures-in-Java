@@ -7,4 +7,6 @@ primary algorithms. It has 28 lectures and 3 tests.
 
 1. [Searching and Sorting](Searching%20and%20Sorting/)
 
-2. [Recursion 1](Recursion%201/)
+2. [Recursion I](Recursion%201/)
+
+3. [Recursion II](Recursion%20II/)
