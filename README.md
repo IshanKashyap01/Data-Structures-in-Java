@@ -10,3 +10,5 @@ primary algorithms. It has 28 lectures and 3 tests.
 2. [Recursion I](Recursion%201/)
 
 3. [Recursion II](Recursion%20II/)
+
+4. [Time Complexity](Time%20Complexity/)
