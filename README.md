@@ -14,3 +14,5 @@ primary algorithms. It has 28 lectures and 3 tests.
 4. [Time Complexity](Time%20Complexity/)
 
 5. [Time and Space Complexity](Time%20and%20Space%20Complexity/)
+
+6. [Test 1](Test%201/)
