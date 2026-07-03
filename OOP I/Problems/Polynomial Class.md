@@ -148,7 +148,7 @@ public class Polynomial
     {
         Polynomial result = new Polynomial();
         int degree = this.getDegree() + p.getDegree();
-        int coeff = 0;
+        int coeff;
         for(int i = 0; i <= degree; i++)
         {
             coeff = 0;
