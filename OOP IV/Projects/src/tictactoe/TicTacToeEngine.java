@@ -1,7 +1,9 @@
 package tictactoe;
 
 import java.util.Scanner;
-
+/**
+ * Controls the flow of the game from start to finish
+ */
 public class TicTacToeEngine
 {
     private TicTacToeBoard board;
@@ -37,6 +39,7 @@ public class TicTacToeEngine
 
     private void initialisePlayers()
     {
+        // instead of remaking them each game
         this.player1 = new Player('X');
         this.player2 = new Player('O');
         inputPlayerName(player1, 1);
