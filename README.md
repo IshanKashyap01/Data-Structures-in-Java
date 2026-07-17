@@ -26,3 +26,5 @@ primary algorithms. It has 28 lectures and 3 tests.
 10. [OOP IV](OOP%20IV/)
 
 11. [Linked List I](Linked%20List%20I/)
+
+12. [Linked List II](Linked%20List%20II/)

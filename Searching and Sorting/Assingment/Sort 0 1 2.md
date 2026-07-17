@@ -64,23 +64,30 @@ public class Solution
 {
     public static void sort012(int[] arr, int n)
     {
-        //Your code goes here
-       int zero = 0, two = n - 1. i = 0;
-       while(i <= two)
-       {
-           if(arr[i] == 0)
-           {
-               swap(arr, i++, zero++);
-           }
-           else if(arr[i] == 2)
-           {
-               swap(arr, i, two--);
-           }
-           else
-           {
-               i++;
-           }
-       }
+        // two jails of known values with the unknowns living in between
+        int zeroJail = -1;
+        int twoJail = n;
+        // one detective to investigate the unknown
+        int detective = 0;
+        // beginning from the very start to the boundary of the 2 jail
+        while(detective < twoJail)
+        {
+            // whatever comes back from left side is already a known
+            if(arr[detective] == 0)
+            {
+                swap(arr, ++zeroJail, detective++);
+            }
+            // what comes back from the right side isn't
+            else if(arr[detective] == 2)
+            {
+                swap(arr, --twoJail, detective);
+            }
+            // 1 belongs in the middle so let it be
+            else
+            {
+                detective++;
+            }
+        }
     }
 
     private static void swap(int[] arr, int i, int j)
