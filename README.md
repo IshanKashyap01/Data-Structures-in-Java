@@ -30,3 +30,5 @@ primary algorithms. It has 28 lectures and 3 tests.
 12. [Linked List II](Linked%20List%20II/)
 
 13. [Test 2](Test%202/)
+
+14. [Java Collection Class I](Java%20Collection%20Class%20I/)

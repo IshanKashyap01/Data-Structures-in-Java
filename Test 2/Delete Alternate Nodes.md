@@ -45,6 +45,10 @@ Sample Output 2:
 ```java
 public class Solution 
 {
+    /*
+    * Time complexity  : O(n)
+    * Space complexity : O(1)
+    */
     public static void deleteAlternateNodes(Node<Integer> head) 
     {
         // edge case: if list is empty, do nothing

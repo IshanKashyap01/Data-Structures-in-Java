@@ -38,6 +38,10 @@ Sample Output 1:
 ```java
 public class Solution
 {
+    /*
+    * Time complexity  : O(n)
+    * Space complexity : O(1)
+    */
     public static LinkedListNode<Integer> nextLargeNumber(LinkedListNode<Integer> head)
     {
         head = reverse(head);
@@ -63,7 +67,10 @@ public class Solution
         }
         return reverse(head);
     }
-
+    /*
+    * Time complexity  : O(n)
+    * Space complexity : O(1)
+    */
     private static LinkedListNode<Integer> reverse(LinkedListNode<Integer> head)
     {
         LinkedListNode<Integer> prev = null, curr = head, next = head;
